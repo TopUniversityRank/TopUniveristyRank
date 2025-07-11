@@ -1,6 +1,11 @@
-Nome,FT Ranking,QS Ranking,Stipendio a 3 anni ($)
-Bocconi,6,12,97000
-HEC Paris,1,10,115000
-London Business School,2,8,125000
-IE Business School,7,15,98000
-ESCP Business School,5,18,95000
+Nome,FT Ranking,QS Ranking,Link FT,Link QS
+University of St Gallen,1,53,https://rankings.ft.com/schools/stgallen,https://www.topuniversities.com/universities/university-st-gallen
+HEC Paris,2,4,https://rankings.ft.com/schools/hec-paris,https://www.topuniversities.com/universities/hec-paris
+INSEAD,3,2,https://rankings.ft.com/schools/insead,https://www.topuniversities.com/universities/insead
+Edhec Business School,4,37,https://rankings.ft.com/schools/edhec,https://www.topuniversities.com/universities/edhec-business-school
+Shanghai Jiao Tong University: Antai,5,101-150,https://rankings.ft.com/schools/antai,https://www.topuniversities.com/universities/shanghai-jiao-tong-university
+ESCP Business School,6,51-100,https://rankings.ft.com/schools/escp,https://www.topuniversities.com/universities/escp-business-school
+Warwick Business School,7,46,https://rankings.ft.com/schools/warwick,https://www.topuniversities.com/universities/warwick-business-school
+IE Business School,8,31,https://rankings.ft.com/schools/ie,https://www.topuniversities.com/universities/ie-business-school
+CEMS – The Global Alliance in Management Education,9,,https://rankings.ft.com/schools/cems,https://www.topuniversities.com/universities/cems
+Rotterdam School of Management,10,61-70,https://rankings.ft.com/schools/rotterdam,https://www.topuniversities.com/universities/rotterdam-school-of-management

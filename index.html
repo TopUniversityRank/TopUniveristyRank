@@ -14,7 +14,7 @@
                 <th>Nome</th>
                 <th>FT Ranking</th>
                 <th>QS Ranking</th>
-                <th>Stipendio a 3 anni ($)</th>
+                <th>QS Link</th>
             </tr>
         </thead>
         <tbody>
@@ -29,13 +29,13 @@
                 const rows = data.split('\n').slice(1);
                 rows.forEach(row => {
                     const cols = row.split(',');
-                    if (cols.length === 4) {
+                    if (cols.length >= 5) {
                         $('#schools tbody').append(
                             `<tr>
                                 <td>${cols[0]}</td>
-                                <td>${cols[1]}</td>
+                                <td><a href="${cols[3]}" target="_blank">${cols[1]}</a></td>
                                 <td>${cols[2]}</td>
-                                <td>${cols[3]}</td>
+                                <td><a href="${cols[4]}" target="_blank">${cols[4] ? 'Link' : '-'}</a></td>
                             </tr>`
                         );
                     }
